@@ -1,0 +1,383 @@
+%-------------------------
+% Resume in Latex
+% Author : Shailesh
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,10.8pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage{fontawesome}
+\usepackage[bb=boondox]{mathalfa}
+\usepackage{fancyhdr}
+\usepackage[hidelinks]{hyperref}
+
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.52in}
+\addtolength{\evensidemargin}{0in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-0.7in}
+\addtolength{\textheight}{1in}
+
+
+\urlstyle{rm}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-5pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[2]{
+  \item\small{
+    \textbf{#1}{: #2 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeItemWithoutTitle}[1]{
+  \item\small{
+    {\vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-6.09pt}
+}
+
+
+\newcommand{\resumeSubItem}[2]{\resumeItem{#1}{#2}\vspace{-4pt}}
+
+\renewcommand{\labelitemii}{$\circ$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=*]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  CV STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+{\fontfamily{bch}\selectfont
+
+%----------HEADING-----------------
+
+\begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+
+\textbf{{\LARGE Shailesh}}\\
+
+\faGlobe\ 
+\href{https://shailes-h.github.io/}{Portfolio}
+
+&
+\href{https://www.linkedin.com/in/shailesh-shailesh/}{\faLinkedinSquare\ Shailesh}
+\quad
+\href{https://x.com/Shailes_h_}{\textsf{$\mathbb{X}$}\ Shailes\_h\_}
+\\
+
+\href{https://github.com/shailes-h}{\faGithubSquare\ GitHub}
+&
+\href{mailto:shailesh.xml@gmail.com}{\small\faEnvelopeO\ shailesh.xml@gmail.com}
+
+\end{tabular*}
+
+%-----------EDUCATION-----------------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Indian Institute of Technology (IIT), Dhanbad}{Dhanbad, India}
+      {Bachelors of Technology in Electrical Engineering (Minor in Embedded Systems)}{Class of 2025}
+      
+	   
+	    
+    \resumeSubheading
+      {Al Momin International School}{Gaya, India}
+      {High School(12th);  Percentage: 92.4\%
+      }{Class of 2021}
+    \resumeSubHeadingListEnd
+
+
+
+%-----------Publications-----------------
+\section{Publications \footnotesize{($^*$ co-first authors)}}
+\resumeSubHeadingListStart
+
+\resumeSubheading
+{Breaking the Vision–Action Shortcut: LIT for
+Generalizable Robotics Foundation Models
+\normalfont\color{blue}\href{https://magiclab-nus.github.io/LIT}{[Project Page]}
+\normalfont\color{blue}\href{https://arxiv.org/pdf/2609.12641}{[arXiv]}}
+{}
+{Jianman Lin$^*$, \textbf{\underline{Shailesh}$^*$}, Zhongyi Luo,  Jiafei Duan}
+{}
+\begin{itemize}
+    \item \href{https://www.ieee-ras.org/publications/icra/}{Under review at \textbf{ICRA 2027}}.
+\end{itemize}
+
+\resumeSubheading
+{RL$^2$-VLA: Adaptive RL Latent Compositional Steering with Test-Time Scaling for VLA Models
+\normalfont\color{blue}\href{https://rl2-vla.github.io/}{[Project Page]}
+\normalfont\color{blue}\href{https://arxiv.org/abs/2607.26991}{[arXiv]}}
+{}
+{Derek MST$^*$, \textbf{\underline{Shailesh}$^*$}, Srikrishna Iyer, William Wei Jie Teo, Yuanliang Ju, Qiao Gu, Guillaume Sartoretti}
+{}
+\begin{itemize}
+    \item \href{https://www.ieee-ras.org/publications/t-rl/}{Under review at \textbf{T-RL}}.
+\end{itemize}
+
+\resumeSubheading
+{GRIM: Task-Oriented Grasping with Conditioning on Generative Examples
+\normalfont\color{blue}\href{https://grim-tog.github.io/}{[Project Page]}
+\normalfont\color{blue}\href{https://arxiv.org/pdf/2506.15607}{[arXiv]}}
+{}
+{\textbf{\underline{Shailesh}}, Alok Raj, Nayan Kumar, Priya Shukla, Andrew Melnik, Micheal Beetz, Gora Chand Nandi}
+{}
+\begin{itemize}
+    \item \href{https://ojs.aaai.org/index.php/AAAI/article/view/38873}{\textbf{AAAI 2026 (Oral)}}.
+\end{itemize}
+
+\resumeSubheading
+{Search-TTA: A Multimodal Test-Time Adaptation Framework for Visual Search in the Wild
+\normalfont\color{blue}\href{https://search-tta.github.io/}{[Project Page]}
+\normalfont\color{blue}\href{https://arxiv.org/pdf/2505.11350}{[arXiv]}}
+{}
+{\parbox[t]{\textwidth}{Derek MST, \textbf{\underline{Shailesh}}, Boyang Liu, Alok Raj, Qi Xuan Ang, Weiheng Dai, Tanishq Duhan, Jimmy Chiun,
+Yuhong Cao, Florian Shkurti,\\ Guillaume Sartoretti}}
+{}
+\begin{itemize}
+    \item \href{https://proceedings.mlr.press/v305/tan25a.html}{\textbf{CoRL 2025}}.
+\end{itemize}
+
+\resumeSubHeadingListEnd
+
+%-----------EXPERIENCE-----------------
+\section{Experience}
+  \resumeSubHeadingListStart
+      \resumeSubheading
+		{\href{https://magic-ailab.github.io/}{MAGIC Lab: National University of Singapore (NUS)}}{Singapore}
+		{Research Assistant: Under   {\href{https://jiafei1224.github.io/}{Prof. \href{https://jiafei1224.github.io/}{\textbf{Jiafei Duan}}}}}{Aug 2026 - Present}
+		\resumeItemListStart
+        \resumeItem{Project}{Towards Data-Efficient Robot Foundation Models For Real-World Deployment.}
+            \begin{description}[font=$\bullet$]
+                % \item {}
+                % \item {}
+                \end{description}
+    \resumeItemListEnd
+
+      \resumeSubheading
+		{\href{https://www.marmotlab.org/index.html}{MARMoT Lab: National University of Singapore (NUS)}}{Singapore}
+		{Research Assistant: Under   {\href{https://marmotlab.org/bio.html}{Prof. \href{https://www.marmotlab.org/bio.html}{\textbf{Guillaume Sartoretti}}}}}{June 2025 - July 2026}
+		\resumeItemListStart
+        \resumeItem{Project}{Vision-Language-Action Foundation Models for General Embodied Intelligence.}
+            \begin{description}[font=$\bullet$]
+                \item {Manipulation-aware locomotion policy for long-horizon mobile manipulation tasks.}
+                \item {Test-time scaling framework for VLA models (OpenVLA, Pi0, Pi0.5), to trade compute for performance. }
+                \end{description}
+    \resumeItemListEnd
+
+
+    
+      \resumeSubheading
+		{\href{https://cir.iiita.ac.in/}{CIR: IIIT Allahabad} \normalfont\color{blue}\href{https://youtu.be/Alzd1yk6IzI?si=naQlAvhyrM2HFYAb\&t=169}{[video]}}{Prayagraj, India}
+		{Research Intern: Under   {\href{https://scholar.google.com.sg/citations?hl=en&user=cVdB1iwAAAAJ}{\textbf{Prof. G.C. Nandi}}} \& {\href{https://scholar.google.com/citations?user=6tiiQtgAAAAJ&hl=en}{\textbf{Andrew Melnik}}}}{Aug 2024 - May 2025}
+		\resumeItemListStart
+        \resumeItem{Project}{Robotic Grasping}
+            \begin{description}[font=$\bullet$]
+                \item {Designed grasping policy leveraging \textbf{ViT}-based visual features.}
+                \end{description}
+                \begin{description}[font=$\bullet$]
+                \item {Performed real robot experiments with Kinova Lite manipulator.}
+                \end{description}
+    \resumeItemListEnd
+
+
+
+
+
+
+
+    \resumeSubheading
+    {\href{https://www.ntnuerc.com/}{ERC Lab, National Taiwan Normal University (NTNU)} \normalfont\color{blue}\href{https://youtu.be/h2RINaXp3i8}{[video]}}{Taipei, Taiwan}
+    {Robotics Intern: Under  {\href{https://www.ntnuerc.com/professors/prof-saeed-saeedvand}{Prof. \textbf{Saeed Saeedvand}}} \&  {\href{https://sites.google.com/site/jackybaltes/home}{Prof. \textbf{Jacky Baltes}}}}{May 2024 - Jul 2024}
+    \resumeItemListStart
+        \resumeItem{Project}
+          {Collaborative control of upper \& lower body of wheeled humanoid robot using multi-agent RL.}
+
+          
+          \begin{description}[font=$\bullet$]
+            \item {Trained robust policy to maneuver and jump in \textbf{Isaac Gym} environment.}
+            \item {Trained collaborative policies for upper and lower body, using \textbf{MAPPO}, \textbf{IPPO} \& \textbf{Dual-A2C}.}
+            \item {Developed a unified policy enabling the upper body to perform manipulation tasks while the lower \\ body concurrently handled balance and maneuvering.}
+            \end{description}
+
+      \resumeItemListEnd
+  
+    \resumeSubheading
+    {\href{https://www.stochlab.com/}{Stochastic Robotics Lab, Indian Institute of Science (IISc, Bangalore)}}{Bangalore, India}
+    {Robotics Intern: Under   {\href{https://www.shishirny.com/} {Prof. \textbf{Shishir Kolathaya NY}}}}{December 2023}
+    \resumeItemListStart
+        \resumeItem{Project}
+          {RL-based locomotion controller of legged robot.}
+          \begin{description}[font=$\bullet$]
+            \item {Trained a unified RL policy achieving 4 distinct gait behaviors, improving locomotion diversity.}
+            \item {Robot trained on teacher-student curriculum learning.}
+            \item {Developed a ROS package for the same robot platform.}
+            \item {Transferred the RL policy into \textbf{ROS}(\textbf{Gazebo}) environment.}
+            \end{description}
+      \resumeItemListEnd
+\newpage
+    \resumeSubheading
+    {\href{https://texmin.in/technology}{TEXMiN (Technology Innovation Hub)} \normalfont\color{blue}\href{https://youtu.be/RTfxgl5l3NM}{[video]}}{Dhanbad, India}
+    {Project Assistant: Under   {\href{https://scholar.google.com/citations?user=T1LKSLwAAAAJ&hl=en}{Prof. \textbf{Arun Dayal Udai}}}}{Feb 2023 -  Apr 2024}
+    \resumeItemListStart
+        \resumeItem{Project}
+          {Development of in-house Quadrupedal Robot for Mining Application.}
+          \begin{description}[font=$\bullet$]
+            \item {Developed ROS based framework for a in-house developed Quadrupedal Robot. }
+            \item {Derived kinematics \& dynamics for the robot.}
+            \item {V1: Locomotion controller using \textbf{ZMP} stabilization.}
+            \item {V2: Reinforcement Learning based control policy.}
+            \item {Hardware testing of locomotion controller.}
+            \end{description}
+    
+
+      \resumeItemListEnd
+
+\resumeSubHeadingListEnd
+
+
+
+
+
+
+
+
+
+
+
+
+%--------Academic Services------------
+\section{Academic Services}
+    \resumeSubHeadingListStart
+    \resumeSubItem
+ {\href{https://www.ieee-ras.org/publications/ra-l/}{Robotics and Automation Letters (RA-L)}}
+ {Reviewer}    
+    \resumeSubItem
+ {\href{https://embodied-nesy.github.io/}{ReS AI Workshop @ IROS 2026}}
+ {Reviewer}    
+    \resumeSubItem
+ {\href{https://semrob.github.io/}{SemRob Workshop @ RSS 2025}}
+ {Reviewer}
+    \resumeSubHeadingListEnd
+%-----------Projects-----------------
+\section{Selected Projects}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+    {mini\textunderscore GPT \color{blue} \normalfont \fontfamily{pcr} \href{https://github.com/ChinChinati/mini_GPT}{[link]}}{}
+    {Personal Project}{August 2024}
+          \begin{description}[font=$\cdot$]
+            \item {Implemented GPT-3 style transformer model architecture from scratch.}
+            \item {Model was trained on Shakespeare Dataset.}
+            \end{description}
+    \resumeSubheading
+    {Inter IIT Tech Meet 11.0 \color{blue} \normalfont \fontfamily{pcr} \href{https://youtu.be/PdnE_47Gra4?si=k9P8WzOMAM4jygSr}{[video]} } {}
+    {Drona Aviation Problem Statement}{Dec 2022 -  Feb 2023}
+          \begin{description}[font=$\cdot$]
+            \item {\textbf{Project}: Hovering a pluto drone on a particular height using ArUco Tag. Using ArUco tag, \\get a pose estimation of the drone. Move the drone in rectangular motion (1 x 2 meter). \\Make the second drone follow the first drone.}
+            \item {Worked on accurate pose estimation of drones with ArUco Tag using a single monocular camera.}
+            \end{description}
+
+  
+    \resumeSubheading
+    {Two-Wheeled Self Balancing Robot \color{blue} \normalfont \fontfamily{pcr} \href{https://youtu.be/h7SCwEhvALs}{[video]} } {}
+    {Mentored by   {\href{https://scholar.google.com/citations?user=T1LKSLwAAAAJ&hl=en}{Prof. Arun Dayal Udai}}}{Mar 2023 -  Dec 2023}
+          \begin{description}[font=$\cdot$]
+            \item {Developed a custom cascaded PID based controller that incorporate acceleration value as well.}
+            \item {Simulated our robot in Gazebo(cascaded PID controller) and in Simulink(with LQR controller) }
+            \item {Designed and build a two wheeled robot in hardware from scratch.}
+            \end{description}
+
+
+
+    
+    
+    \resumeSubHeadingListEnd
+    %--------PROGRAMMING SKILLS------------
+    \section{Skills}
+    	\resumeSubHeadingListStart
+     
+    	\resumeSubItem
+     {Programming}
+     {Python, C++, Linux, Git}
+
+     \resumeSubItem
+     {ML/AI}
+     {RL, ViTs, VLMs, Diffusion Models}
+     
+    	\resumeSubItem
+     {Simulation/Visualization}
+     {RoboCasa, Isaac Sim, Gazebo, RViz, CoppeliaSim, Simulink}
+    
+     \resumeSubItem
+     {Frameworks/Libraries}
+     {Jax, PyTorch, ROS/ROS2, Open3D, MoveIt}
+     
+     \resumeSubItem
+     {Hardware}
+     {Kinova Gen3, Jetson Orin, Microcontrollers, Servo Actuators, Power Electronics }
+    
+    \resumeSubHeadingListEnd
+    %-----------Coursework-----------------
+    \section{Relevant Coursework}
+    	   \resumeSubHeadingListStart
+     
+    	   \resumeSubItem
+         {Robotics}
+         {Reinforcement Learning, Self Driving Cars, Controls Bootcamp, Industrial Robotics \& Automation}
+     
+    	   \resumeSubItem
+         {Mechatronics}
+         {Embedded Systems, Engineering Mechanics, Analog and Digital Electronics}
+        
+         \resumeSubItem
+         {Software}
+         {Machine Learning, Deep Learning, Data Structure \& Algorithm}
+        
+    \resumeSubHeadingListEnd
+
+    %-----------Awards-----------------
+    \section{Honors and Awards}
+    \begin{description}[font=$\bullet$]
+    \item {\textbf{Best paper finalist}: \href{https://rememberl-corl25.github.io/#accepted-papers}{RememberRL @ CoRL 2025} (with \href{https://grim-tog.github.io/}{GRIM})} 
+    \item {\textbf{1st Position}: (\$12,000) Robofest Gujarat 3.0 2023 (India's Biggest Robotics Competition )} 
+    \item {\textbf{1st Position}: Vichesta(ROS simulation competition), Takshak 2022 (East India's Largest Robotics Fest)}
+    \item {\textbf{3rd Position}: Robowars(BattleBots) at Concetto 2022 (Annual Tech Fest of IIT Dhanbad)}
+    \end{description}
+    %-------------------------------------------
+    
+}
+\end{document}

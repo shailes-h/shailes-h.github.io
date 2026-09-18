@@ -1,0 +1,18 @@
+title: 'Grounded Action Model: 3D Grounding as a Foundation for Robotics'
+date: 2026-01-01
+selected: false
+authors:
+  - name: Gehao Zhang
+    marks: '*'
+  - name: Weikai Huang
+  - name: Shailesh
+    highlight: true
+  - name: Yiyan Peng
+  - name: Jiafei Duan
+  - name: Ranjay Krishna
+venue:
+  - text: 'Under review'
+media:
+  type: video
+  src: /images/publications/20260101_gam.mp4
+  alt: Grounded Action Model demo video

@@ -1,0 +1,33 @@
+title: 'Search-TTA: A Multimodal Test-Time Adaptation Framework for Visual Search in the Wild'
+date: 2025-05-11
+selected: false
+authors:
+  - name: Derek MST
+  - name: Shailesh
+    marks: '†'
+    highlight: true
+  - name: Boyang Liu
+  - name: Alok Raj
+  - name: Qi Xuan Ang
+  - name: Weiheng Dai
+  - name: Tanishq Duhan
+  - name: Jimmy Chiun
+  - name: Yuhong Cao
+  - name: Florian Shkurti
+  - name: Guillaume Sartoretti
+venue:
+  - text: 'CoRL 2025'
+media:
+  type: video
+  src: /images/publications/20250511_searchtta.mp4
+  alt: Search-TTA teaser video
+links:
+  - label: Website
+    kind: website
+    url: 'https://search-tta.github.io/'
+  - label: Paper
+    kind: paper
+    url: 'https://arxiv.org/pdf/2505.11350'
+  - label: Published
+    kind: report
+    url: 'https://proceedings.mlr.press/v305/tan25a.html'

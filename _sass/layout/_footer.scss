@@ -1,0 +1,202 @@
+/* ==========================================================================
+   FOOTER
+   ========================================================================== */
+
+.page__footer {
+  @include clearfix;
+  background-color: var(--global-footer-bg-color);
+  color: var(--global-text-color-light);
+
+  float: left;
+  margin-left: 0;
+  margin-right: 0;
+  width: 100%;
+  clear: both;
+
+  /* sticky footer fix start */
+  position: absolute;
+  bottom: 0em;
+  height: auto;
+  /* sticky footer fix end */
+
+  margin-top: 3em;
+
+  -webkit-animation: intro 0.3s both;
+          animation: intro 0.3s both;
+  -webkit-animation-delay: 0.45s;
+          animation-delay: 0.45s;
+  border-top: 1px solid var(--global-dark-border-color);
+
+  footer {
+    @include clearfix;
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) auto;
+    grid-template-areas:
+      "sitemap map"
+      "follow map"
+      "copyright map";
+    column-gap: 1.25rem;
+    row-gap: 0;
+    align-items: start;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1em;
+    max-width: 100%;
+    padding: 0 clamp(1em, 4vw, 2.75em) 1em;
+
+    @include breakpoint($large) {
+      padding-left: 27px;
+      padding-right: 54px;
+    }
+
+    @include breakpoint($x-large) {
+      max-width: $x-large;
+      padding-left: 70px;
+      padding-right: 140px;
+    }
+  }
+
+  a {
+    color: inherit;
+    text-decoration: none;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+
+  .fas,
+  .fab,
+  .far,
+  .fal {
+    color: var(--global-text-color-light);
+  }
+}
+
+.page__footer-copyright {
+  grid-area: copyright;
+  align-self: end;
+  font-family: $global-font-family;
+  font-size: $type-size-7;
+}
+
+.page__footer-sitemap {
+  display: inline-block;
+  grid-area: sitemap;
+}
+
+.page__footer-follow {
+  grid-area: follow;
+
+  ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+  }
+
+  li {
+    display: inline-block;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-family: $sans-serif-narrow;
+    font-size: $type-size-6;
+    text-transform: uppercase;
+  }
+
+  li + li:before {
+    content: "";
+    padding-right: 5px;
+  }
+
+  a {
+    padding-right: 10px;
+    font-weight: bold;
+  }
+
+  .social-icons {
+    a {
+      white-space: nowrap;
+    }
+  }
+}
+
+/*
+   Visitor Map
+   ========================================================================== */
+
+/* right aligned the footer visitor map */
+.page__footer-map {
+  grid-area: map;
+  float: none;
+  width: 210px;
+  max-width: 210px;
+  min-height: 0;
+  margin: 0 0 0 auto;
+  justify-self: end;
+  align-self: end;
+
+  .visitor-map-link {
+    display: block;
+    width: 100%;
+    text-decoration: none;
+    overflow: hidden;
+    border-radius: 12px;
+    border: 1px solid var(--global-border-color);
+    background: var(--global-bg-color);
+    transition: transform 160ms ease, border-color 160ms ease, box-shadow 160ms ease;
+
+    &:hover,
+    &:focus-visible {
+      border-color: var(--global-accent-color-soft);
+      box-shadow: 0 8px 24px color-mix(in srgb, var(--global-accent-color) 14%, transparent);
+      transform: translateY(-2px);
+      text-decoration: none;
+    }
+  }
+
+  .visitor-map-image {
+    display: block;
+    width: 100%;
+    height: auto;
+    border: 0;
+    border-radius: 12px;
+    box-shadow: none;
+    background: transparent;
+  }
+}
+
+@media (max-width: 1100px) {
+  .page__footer-follow {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+
+  .page__footer-copyright {
+    margin-top: 0;
+  }
+
+  .page__footer-map {
+    float: none;
+    clear: none;
+    width: 180px;
+    max-width: 180px;
+    margin-top: 0;
+    margin-left: auto;
+    margin-right: 0;
+    justify-self: end;
+    align-self: end;
+  }
+}
+
+@media (max-width: 560px) {
+  .page__footer-map {
+    width: 138px;
+    max-width: 138px;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .page__footer-map .visitor-map-link {
+    transition: none;
+  }
+}

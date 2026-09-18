@@ -1,0 +1,547 @@
+/* ==========================================================================
+   NAVIGATION
+   ========================================================================== */
+
+/*
+   Breadcrumb navigation links
+   ========================================================================== */
+
+.breadcrumbs {
+  @include container;
+  @include clearfix;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 2em;
+  padding-right: 2em;
+  font-family: $sans-serif;
+  -webkit-animation: intro 0.3s both;
+          animation: intro 0.3s both;
+  -webkit-animation-delay: 0.30s;
+          animation-delay: 0.30s;
+
+  @include breakpoint($large) {
+    padding-left: 1em;
+    padding-right: 1em;
+  }
+
+  @include breakpoint($x-large) {
+    max-width: $x-large;
+  }
+
+  ol {
+    padding: 0;
+    list-style: none;
+    font-size: $type-size-6;
+
+    @include breakpoint($large) {
+      @include span(10 of 12 last);
+    }
+
+    @include breakpoint($x-large) {
+      @include prefix(0.5 of 12);
+    }
+  }
+
+  li {
+    display: inline;
+  }
+
+  .current {
+    font-weight: bold;
+  }
+}
+
+
+/*
+   Post pagination navigation links
+   ========================================================================== */
+
+.pagination {
+  @include full();
+  @include clearfix();
+  margin-top: 1em;
+  padding-top: 1em;
+
+  ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    font-family: $sans-serif;
+  }
+
+  li {
+    display: block;
+    float: left;
+    margin-left: -1px;
+
+    a {
+      margin-bottom: 0.25em;
+      padding: 0.5em 1em;
+      font-family: $sans-serif;
+      font-size: 14px;
+      font-weight: bold;
+      line-height: 1.5;
+      text-align: center;
+      text-decoration: none;
+      color: var(--global-text-color-light);
+      border: 1px solid var(--global-border-color);
+      border-radius: 0;
+
+      &:hover {
+        color: var(--global-link-color-hover);
+      }
+
+      &.current {
+        color: #fff;
+        background: var(--global-base-color);
+      }
+
+      &.disabled {
+        color: var(--global-text-color-light);
+        pointer-events: none;
+        cursor: not-allowed;
+      }
+    }
+
+    &:first-child {
+      margin-left: 0;
+
+      a {
+        border-top-left-radius: $border-radius;
+        border-bottom-left-radius: $border-radius;
+      }
+    }
+
+    &:last-child {
+      a {
+        border-top-right-radius: $border-radius;
+        border-bottom-right-radius: $border-radius;
+      }
+    }
+  }
+
+  /* next/previous buttons */
+  &--pager {
+    display: block;
+    padding: 1em 2em;
+    float: left;
+    width: 50%;
+    font-family: $sans-serif;
+    font-size: $type-size-5;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    color: var(--global-text-color-light);
+    border: 1px solid var(--global-border-color);
+    border-radius: $border-radius;
+
+    &:hover {
+      color: var(--global-link-color-hover);
+    }
+
+    &:first-child {
+      border-top-right-radius: 0;
+      border-bottom-right-radius: 0;
+    }
+
+    &:last-child {
+      margin-left: -1px;
+      border-top-left-radius: 0;
+      border-bottom-left-radius: 0;
+    }
+
+    &.disabled {
+      color: var(--global-text-color-light);
+      pointer-events: none;
+      cursor: not-allowed;
+    }
+  }
+}
+
+.page__content + .pagination,
+.page__meta + .pagination,
+.page__share + .pagination,
+.page__comments + .pagination {
+  margin-top: 2em;
+  padding-top: 2em;
+  border-top: 1px solid var(--global-border-color);
+}
+
+
+/*
+   Priority plus navigation
+   ========================================================================== */
+
+.greedy-nav {
+  position: relative;
+  min-width: 250px;
+  background: transparent;
+
+  a {
+    display: block;
+    margin: 0 1rem;
+    padding: 0.5rem 0;
+    color: var(--global-masthead-link-color);
+    text-decoration: none;
+
+    &:hover {
+      color: var(--global-masthead-link-color-hover);
+    }
+  }
+
+  button {
+    position: absolute;
+    height: 2.5rem;
+    right: 0;
+    padding: 0 0.5rem;
+    border: 0;
+    outline: none;
+    background-color: transparent;
+    color: var(--global-masthead-link-color);
+    cursor: pointer;
+    z-index: 100;
+
+    &:hover {
+      background-color: transparent;
+      color: var(--global-masthead-link-color-hover);
+    }
+  }
+
+  .visible-links {
+    display: table;
+
+    li {
+      display: table-cell;
+      vertical-align: middle;
+
+      &:first-child {
+        font-weight: bold;
+        text-wrap: wrap;
+
+        a {
+          margin-left: 0;
+        }
+      }
+
+      &:last-child {
+        a {
+          margin-right: 0;
+        }
+      }
+    }
+
+    #theme-toggle {
+      a {
+        width: 25px;
+        display: flex;
+        justify-content: center;
+        cursor: pointer;
+      }
+    }
+
+    a {
+      position: relative;
+
+      &:before {
+        content: "";
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        height: 4px;
+        background: var(--global-accent-color-soft);
+        width: 100%;
+        -webkit-transition: transform 0.22s ease, background-color 0.22s ease;
+        transition: transform 0.22s ease, background-color 0.22s ease;
+        -webkit-transform-origin: center center;
+            -ms-transform-origin: center center;
+                transform-origin: center center;
+        -webkit-transform: scaleX(0);
+            -ms-transform: scaleX(0);
+                transform: scaleX(0); /* hide*/
+      }
+
+      &.is-current-section:before,
+      &:hover:before {
+        -webkit-transform: scaleX(1);
+            -ms-transform: scaleX(1);
+                transform: scaleX(1); /* reveal*/
+      }
+    }
+  }
+
+  .hidden-links {
+    position: absolute;
+    top: 100%;
+    right: 0;
+    margin-top: 15px;
+    padding: 5px;
+    border: 1px solid var(--global-glass-border-color);
+    border-radius: $border-radius;
+    background: var(--global-glass-bg-color-strong);
+    -webkit-backdrop-filter: blur(18px) saturate(165%);
+            backdrop-filter: blur(18px) saturate(165%);
+    box-shadow: 0 16px 32px rgba(46, 42, 59, 0.12);
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
+    transition: opacity 0.18s ease, transform 0.18s ease, visibility 0s linear 0s;
+
+    a {
+      margin: 0;
+      padding: 10px 20px;
+      font-size: $type-size-5;
+
+      &:hover {
+        color: var(--global-masthead-link-color-hover);
+        background: var(--global-section-tint-color);
+      }
+
+      &.is-current-section {
+        color: var(--global-accent-color);
+      }
+    }
+
+    &:before {
+      content: "";
+      position: absolute;
+      top: -11px;
+      right: 10px;
+      width: 0;
+      border-style: solid;
+      border-width: 0 10px 10px;
+      border-color: var(--global-glass-border-color) transparent;
+      display: block;
+      z-index: 0;
+    }
+
+    &:after {
+      content: "";
+      position: absolute;
+      top: -10px;
+      right: 10px;
+      width: 0;
+      border-style: solid;
+      border-width: 0 10px 10px;
+      border-color: var(--global-glass-bg-color-strong) transparent;
+      display: block;
+      z-index: 1;
+    }
+
+    li {
+      display: block;
+      border-bottom: 1px solid var(--global-border-color);
+
+      &:last-child {
+        border-bottom: none;
+      }
+    }
+  }
+
+  .hidden-links.hidden {
+    display: block;
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
+    transform: translateY(-0.3rem);
+    transition: opacity 0.16s ease, transform 0.16s ease, visibility 0s linear 0.16s;
+  }
+}
+
+.greedy-nav .visible-links a.is-current-section {
+  color: var(--global-accent-color);
+}
+
+html[data-theme="dark"] {
+  .greedy-nav .visible-links a.is-current-section {
+    color: var(--global-accent-color);
+  }
+
+  .greedy-nav .hidden-links a.is-current-section {
+    background: rgba(143, 122, 229, 0.12);
+    border-radius: $border-radius;
+  }
+}
+
+
+/*
+   Theme and Hamburger Button
+   ========================================================================== */
+
+/* move the theme button to the right-most position */
+/* move the hamburger button to its left, and tweak its effect range */
+/* also align the arrow for the hamburger button */
+/* --- constants you can tweak --- */
+:root{
+  --theme-toggle-w: 1.00rem;   /* width of the theme icon */
+  --burger-w:       2.00rem;   /* hamburger button width */
+  --gap:            1.00rem;   /* space between them */
+  --controls-w:     calc(var(--burger-w) + var(--gap) + var(--theme-toggle-w));
+}
+
+/* 1) Reserve space for BOTH controls so Greedy Nav's width calc accounts for it */
+.greedy-nav{
+  position: relative;
+  padding-right: var(--controls-w);   /* key: shrink usable width for links */
+}
+
+/* 2) Place the theme toggle to the far right */
+.greedy-nav .visible-links #theme-toggle{
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  list-style: none;
+  margin: 0;
+}
+.greedy-nav .visible-links #theme-toggle a{
+  width: var(--theme-toggle-w);
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+}
+.greedy-nav .visible-links #theme-toggle a::before{ display: none; } /* kill underline bar */
+
+/* 3) Nudge the hamburger left so it sits just before the toggle */
+.greedy-nav button{
+  right: calc(var(--theme-toggle-w) + var(--gap));
+}
+
+.greedy-nav button .navicon{
+  transform: scale(0.72);
+  transform-origin: center;
+}
+
+/* move the little arrow so it sits under the hamburger (to the left of the gear) */
+.greedy-nav .hidden-links:before,
+.greedy-nav .hidden-links:after{
+  right: calc(10px + var(--theme-toggle-w) + var(--gap)); /* default 10px + gear + gap */
+}
+
+/* (Optional) if links still creep under on very small widths, tighten a bit more */
+@media (max-width: 520px){
+  .greedy-nav{ padding-right: calc(var(--controls-w) + 0.50rem); }
+}
+
+
+/*
+   Navigation list
+   ========================================================================== */
+
+.nav__list {
+  font-size: 1.25rem;
+
+  ul {
+    margin-bottom: 1em;
+  }
+
+  a {
+    display: block;
+    padding: 0.125em 0;
+    color: inherit;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+
+  .active {
+    margin-left: -0.5em;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+    color: #fff;
+    font-weight: bold;
+    background: var(--global-base-color);
+    border-radius: $border-radius;
+
+    &:hover {
+      color: #fff;
+    }
+  }
+}
+
+.nav__title {
+  margin: 0;
+  padding: 0.5rem 1rem;
+  font-family: $sans-serif-narrow;
+  font-size: $type-size-5;
+  font-weight: bold;
+}
+
+.nav__sub-title {
+  display: block;
+  margin: 0.5rem 0;
+  padding: 0.5rem 0;
+  font-family: $sans-serif-narrow;
+  font-size: $type-size-6;
+  font-weight: bold;
+  text-transform: uppercase;
+  border-bottom: 1px solid var(--global-border-color);
+}
+
+
+/*
+   Table of contents navigation
+   ========================================================================== */
+
+.toc {
+  font-family: $sans-serif-narrow;
+  color: var(--global-text-color-light);
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  background-color: #fff;
+  border: 1px solid var(--global-border-color);
+  border-radius: $border-radius;
+  box-shadow: $box-shadow;
+
+  .nav__title {
+    color: #fff;
+    font-size: $type-size-6;
+    background: var(--global-base-color);
+    border-top-left-radius: $border-radius;
+    border-top-right-radius: $border-radius;
+  }
+}
+
+.toc__menu {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  list-style: none;
+  font-size: 0.8rem;
+
+  a {
+    display: block;
+    padding: 0.5rem 1rem;
+    color: var(--global-code-text-color);
+    font-size: $type-size-7;
+    font-weight: bold;
+    line-height: 1.5;
+    border-bottom: 1px solid var(--global-border-color);
+    text-decoration-line: none !important;
+
+    &:hover {
+      color: #000;
+      background: var(--global-link-color-hover);
+    }
+  }
+
+  > li:last-child {
+    a {
+      border-bottom: none;
+    }
+  }
+
+  li ul > li a {
+    padding-left: 2rem;
+    font-weight: normal;
+  }
+
+  /* hide sub sub links on small screens*/
+  li > ul li {
+    display: none;
+
+    @include breakpoint($medium) {
+      display: block;
+    }
+  }
+}

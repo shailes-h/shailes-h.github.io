@@ -1,0 +1,28 @@
+title: 'RL^2-VLA: Adaptive RL Latent Compositional Steering with Test-Time Scaling for VLA Models'
+date: 2026-07-26
+selected: true
+authors:
+  - name: Derek MST
+    marks: '*'
+  - name: Shailesh
+    marks: '*'
+    highlight: true
+  - name: Srikrishna Iyer
+  - name: William Wei Jie Teo
+  - name: Yuanliang Ju
+  - name: Qiao Gu
+  - name: Guillaume Sartoretti
+venue:
+  - text: 'Under review'
+media:
+  type: video
+  src: /images/publications/20260726_rl2vla.mp4
+  alt: RL^2-VLA demo video
+  fit: contain
+links:
+  - label: Website
+    kind: website
+    url: 'https://rl2-vla.github.io/'
+  - label: Paper
+    kind: paper
+    url: 'https://arxiv.org/abs/2607.26991'

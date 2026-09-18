@@ -1,0 +1,24 @@
+title: 'Breaking the Vision-Action Shortcut: LIT for Generalizable Robotics Foundation Models'
+date: 2026-09-18
+selected: true
+authors:
+  - name: Jianman Lin
+    marks: '*'
+  - name: Shailesh
+    marks: '*'
+    highlight: true
+  - name: Zhongyi Luo
+  - name: Jiafei Duan
+venue:
+  - text: 'Under review'
+media:
+  type: video
+  src: /images/publications/20260918_lit.mp4
+  alt: LIT teaser video
+links:
+  - label: Website
+    kind: website
+    url: 'https://magiclab-nus.github.io/LIT'
+  - label: Paper
+    kind: paper
+    url: 'https://arxiv.org/pdf/2609.12641'

@@ -1,0 +1,31 @@
+title: 'GRIM: Task-Oriented Grasping with Conditioning on Generative Examples'
+date: 2025-06-10
+selected: true
+authors:
+  - name: Shailesh
+    highlight: true
+  - name: Alok Raj
+  - name: Nayan Kumar
+  - name: Priya Shukla
+  - name: Andrew Melnik
+  - name: Micheal Beetz
+  - name: Gora Chand Nandi
+venue:
+  - text: 'AAAI 2026 (Oral)'
+  - text: 'RemembeRL @ CoRL 2025'
+    note: 'Best Paper Finalist'
+    note_variant: award
+media:
+  type: video
+  src: /images/publications/20250610_grim.mp4
+  alt: GRIM teaser video
+links:
+  - label: Website
+    kind: website
+    url: 'https://grim-tog.github.io/'
+  - label: Paper
+    kind: paper
+    url: 'https://arxiv.org/pdf/2506.15607'
+  - label: AAAI
+    kind: report
+    url: 'https://ojs.aaai.org/index.php/AAAI/article/view/38873'

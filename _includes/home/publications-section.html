@@ -1,0 +1,34 @@
+{% assign selected_publication_ids = site.data.publication_order.selected | default: site.data.publication_order.selected_by_preference %}
+{% assign all_publication_ids = site.data.publication_order.by_date_asc | reverse %}
+
+<div class="home-section__toolbar home-section__toolbar--publications">
+  <div class="publication-legend">
+    <span><code>*</code> co-first authors</span>
+    <span><code>†</code> second authors</span>
+  </div>
+
+  <div class="publication-switch" role="tablist" aria-label="Publication view">
+    <button class="publication-switch__button" type="button" data-publication-switch="selected" aria-selected="false">Selected</button>
+    <button class="publication-switch__button is-active" type="button" data-publication-switch="all" aria-selected="true">All Publications</button>
+  </div>
+</div>
+
+<div class="home-publications">
+  <div class="home-publications__view" data-publication-view="selected" hidden>
+    {% for publication_id in selected_publication_ids %}
+      {% assign publication = site.data.publications[publication_id] %}
+      {% if publication and publication.selected %}
+        {% include home/publication-card.html publication=publication %}
+      {% endif %}
+    {% endfor %}
+  </div>
+
+  <div class="home-publications__view" data-publication-view="all">
+    {% for publication_id in all_publication_ids %}
+      {% assign publication = site.data.publications[publication_id] %}
+      {% if publication %}
+        {% include home/publication-card.html publication=publication %}
+      {% endif %}
+    {% endfor %}
+  </div>
+</div>
