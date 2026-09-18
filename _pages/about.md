@@ -15,7 +15,7 @@ I'm a Research Assistant at the [MAGIC Lab](https://magic-ailab.github.io/), Nat
 
 Previously, I was a Research Assistant at the [MARMoT Lab](https://www.marmotlab.org/index.html), NUS, working with [Prof Guillaume Sartoretti](https://www.marmotlab.org/bio.html). I've also spent time at [CIR, IIIT Allahabad](https://cir.iiita.ac.in/) with [Prof G.C. Nandi](https://scholar.google.com.sg/citations?hl=en&user=cVdB1iwAAAAJ).
 
-My research interests lie in robot learning, with a focus on vision-language-action foundation models, test-time scaling, and generalizable manipulation policies for real-world deployment.
+My research interests center around foundation models for robotics and general-purpose robot learning, spanning vision-language-action models, world models, and test-time scaling for generalizable, real-world manipulation.
 
 ## 🔥 News {#news}
 <ul class="home-news__list" id="news-list" data-collapsible-list data-initial-limit="5" data-expand-label="Expand news" data-collapse-label="Collapse news">
