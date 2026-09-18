@@ -14,9 +14,9 @@ mast_title               : "Shailesh"
 title_separator          : "-"
 name                     : &name "Shailesh"
 description              : &description "Shailesh's Personal Website"
-url                      : https://chinchinati.github.io # the base hostname & protocol for your site e.g. "https://[your GitHub username].github.io" or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
+url                      : https://shailes-h.github.io # the base hostname & protocol for your site e.g. "https://[your GitHub username].github.io" or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
-repository               : "chinchinati/chinchinati.github.io"
+repository               : "shailes-h/shailes-h.github.io"
 visitor_map_url          :
 
 # Site Author - The following control what appear as part of the author content on the side bar.
