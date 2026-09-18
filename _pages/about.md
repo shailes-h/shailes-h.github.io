@@ -17,6 +17,24 @@ Previously, I was a Research Assistant at the [MARMoT Lab](https://www.marmotlab
 
 My research interests lie in robot learning, with a focus on vision-language-action foundation models, test-time scaling, and generalizable manipulation policies for real-world deployment.
 
+## 🔥 News {#news}
+<ul class="home-news__list" id="news-list" data-collapsible-list data-initial-limit="5" data-expand-label="Expand news" data-collapse-label="Collapse news">
+  <li><strong>[2026/09]</strong> Our paper <em>Breaking the Vision-Action Shortcut: LIT for Generalizable Robotics Foundation Models</em> has been preprinted to <a href="https://arxiv.org/pdf/2609.12641">arXiv</a>. Check out the <a href="https://magiclab-nus.github.io/LIT">project page</a> and the <a href="https://x.com/Shailes_h_/status/2099105070403248387?s=20">X post</a>.</li>
+  <li><strong>[2026/08]</strong> Joined the <a href="https://magic-ailab.github.io/">MAGIC Lab</a>, National University of Singapore (NUS) as a Research Assistant, working with <a href="https://jiafei1224.github.io/">Prof Jiafei Duan</a>.</li>
+  <li><strong>[2026/07]</strong> Our paper <em>RL^2-VLA: Adaptive RL Latent Compositional Steering with Test-Time Scaling for VLA Models</em> has been preprinted to <a href="https://arxiv.org/abs/2607.26991">arXiv</a>.</li>
+  <li><strong>[2025/09]</strong> Our paper <em>GRIM: Task-Oriented Grasping with Conditioning on Generative Examples</em> has been accepted to <a href="https://aaai.org/conference/aaai/aaai-26/">AAAI 2026 (Oral)</a> and selected as <span style="color:red;">Best Paper Finalist</span> at <a href="https://rememberl-corl25.github.io/#accepted-papers">RemembeRL @ CoRL 2025</a>.</li>
+  <li><strong>[2025/06]</strong> Our paper <em>GRIM: Task-Oriented Grasping with Conditioning on Generative Examples</em> has been preprinted to <a href="https://arxiv.org/pdf/2506.15607">arXiv</a>.</li>
+  <li><strong>[2025/06]</strong> Joined the <a href="https://www.marmotlab.org/index.html">MARMoT Lab</a>, National University of Singapore (NUS) as a Research Assistant, working with <a href="https://www.marmotlab.org/bio.html">Prof Guillaume Sartoretti</a>.</li>
+  <li><strong>[2025/05]</strong> Our paper <em>Search-TTA: A Multimodal Test-Time Adaptation Framework for Visual Search in the Wild</em> has been accepted to <a href="https://proceedings.mlr.press/v305/tan25a.html">CoRL 2025</a>.</li>
+</ul>
+<div class="home-news__controls">
+  <button class="home-news__toggle" type="button" data-list-toggle aria-controls="news-list" aria-expanded="false" aria-label="Expand news">
+    <span class="home-news__toggle-icon" aria-hidden="true">
+      <i class="fa-solid fa-chevron-down"></i>
+    </span>
+  </button>
+</div>
+
 ## 📑 Publications {#research}
 {% include home/publications-section.html %}
 
