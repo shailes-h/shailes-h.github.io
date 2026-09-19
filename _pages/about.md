@@ -155,4 +155,4 @@ My research aims to develop foundation models that enable general-purpose robot 
 ## 🎲 Misc {#misc}
 - **Sports:** Badminton, Tennis (beginner)
 - **Art:** I draw sometimes, check it out [here](/art/)
-- **Fun projects:** [CNC Plotter drawing Hisoka from HxH](https://youtu.be/TETPuLBlouc?si=-9-TKG7gNuu2yfOl), [Lunar Scout](https://github.com/shailes-h/Lunar_Scout)
+- **Fun projects:** [CNC Plotter](https://youtu.be/TETPuLBlouc?si=-9-TKG7gNuu2yfOl), [Lunar Scout](https://github.com/shailes-h/Lunar_Scout)
