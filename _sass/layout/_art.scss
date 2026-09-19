@@ -10,8 +10,8 @@
 
 .art-gallery {
   column-count: 3;
-  column-gap: 28px;
-  padding: 10px 0 30px;
+  column-gap: 10px;
+  padding: 10px 0 20px;
 
   @media screen and (max-width: 900px) {
     column-count: 2;
@@ -25,7 +25,7 @@
 .art-gallery__item {
   display: block;
   break-inside: avoid;
-  margin: 0 0 28px;
+  margin: 0 0 10px;
   overflow: hidden;
   border-radius: 10px;
   background: var(--global-surface-color);
