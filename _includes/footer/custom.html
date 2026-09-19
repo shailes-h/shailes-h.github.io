@@ -29,7 +29,7 @@
     >
       <img
         class="visitor-map-image"
-        src="{{ site.visitor_map_url }}/map.svg?track=0&amp;theme=light"
+        src="{{ site.visitor_map_url }}/map.svg?track=0&amp;theme=light&amp;force=true"
         alt="Visitor map"
         width="640"
         height="330"
@@ -39,6 +39,10 @@
         data-visitor-map-image
       />
     </a>
+    <div class="visitor-map-count" data-visitor-map-count>
+      <span class="visitor-count-label">Total visits:</span>
+      <span class="visitor-count-number" data-visitor-count-number>Loading...</span>
+    </div>
 </div>
 {% endif %}
 <!-- end custom footer snippets -->

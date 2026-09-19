@@ -6,6 +6,7 @@ document.addEventListener("DOMContentLoaded", () => {
   const initializeVisitorMap = () => {
     const mapImage = document.querySelector("[data-visitor-map-image]");
     const mapLink = document.querySelector("[data-visitor-map-link]");
+    const countNumber = document.querySelector("[data-visitor-count-number]");
 
     if (!(mapImage instanceof HTMLImageElement) || !(mapLink instanceof HTMLAnchorElement)) {
       return;
@@ -18,6 +19,8 @@ document.addEventListener("DOMContentLoaded", () => {
 
       imageUrl.searchParams.set("track", "0");
       imageUrl.searchParams.set("theme", theme);
+      imageUrl.searchParams.set("force", "true");
+      imageUrl.searchParams.set("t", Date.now());
       dashboardUrl.searchParams.set("theme", theme);
 
       if (mapImage.src !== imageUrl.href) {
@@ -29,7 +32,23 @@ document.addEventListener("DOMContentLoaded", () => {
       }
     };
 
+    const fetchVisitorCount = async () => {
+      if (!countNumber) return;
+
+      try {
+        const response = await fetch(new URL(mapImage.src).origin + "/count?force=true");
+        if (response.ok) {
+          const data = await response.json();
+          countNumber.textContent = data.total.toLocaleString();
+        }
+      } catch (error) {
+        console.error("Failed to fetch visitor count:", error);
+        countNumber.textContent = "—";
+      }
+    };
+
     syncVisitorMapTheme();
+    fetchVisitorCount();
 
     const observer = new MutationObserver(syncVisitorMapTheme);
     observer.observe(root, { attributes: true, attributeFilter: ["data-theme"] });

@@ -163,6 +163,29 @@
     box-shadow: none;
     background: transparent;
   }
+
+  .visitor-map-count {
+    margin-top: 0.75rem;
+    text-align: center;
+    font-family: $global-font-family;
+    font-size: $type-size-7;
+    color: var(--global-text-color-light);
+  }
+
+  .visitor-count-label {
+    display: block;
+    font-size: 0.75rem;
+    color: var(--global-text-color-light);
+    opacity: 0.8;
+    margin-bottom: 0.25rem;
+  }
+
+  .visitor-count-number {
+    display: block;
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: var(--global-accent-color);
+  }
 }
 
 @media (max-width: 1100px) {
