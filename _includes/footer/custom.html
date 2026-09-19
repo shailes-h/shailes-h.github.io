@@ -16,12 +16,12 @@
     await mermaid.run({querySelector:'code.language-mermaid'});
 </script>
 
-{% assign visitor_map_url = site.visitor_map_url | default: "https://visitor-map.hqfang.workers.dev" %}
-<script defer src="{{ visitor_map_url }}/tracker.js" data-visitor-map-tracker></script>
+{% if site.visitor_map_url %}
+<script defer src="{{ site.visitor_map_url }}/tracker.js" data-visitor-map-tracker></script>
 <div class="page__footer-map">
     <a
       class="visitor-map-link"
-      href="{{ visitor_map_url }}/?theme=light"
+      href="{{ site.visitor_map_url }}/?theme=light"
       title="Open visitor statistics"
       target="_blank"
       rel="noopener noreferrer"
@@ -29,7 +29,7 @@
     >
       <img
         class="visitor-map-image"
-        src="{{ visitor_map_url }}/map.svg?track=0&amp;theme=light"
+        src="{{ site.visitor_map_url }}/map.svg?track=0&amp;theme=light"
         alt="Visitor map"
         width="640"
         height="330"
@@ -40,4 +40,5 @@
       />
     </a>
 </div>
+{% endif %}
 <!-- end custom footer snippets -->
