@@ -151,3 +151,8 @@ My research aims to develop foundation models that enable general-purpose robot 
 - **1st Position** ($12,000): Robofest Gujarat 3.0 2023 (India's Biggest Robotics Competition)
 - **1st Position**: Vichesta (ROS simulation competition), Takshak 2022 (East India's Largest Robotics Fest)
 - **3rd Position**: Robowars (BattleBots) at Concetto 2022 (Annual Tech Fest of IIT Dhanbad)
+
+## 🎲 Misc {#misc}
+- **Sports:** Badminton, Tennis (beginner)
+- **Art:** I draw sometimes, check it out [here](/art/)
+- **Fun projects:** [CNC Plotter drawing Hisoka from HxH](https://youtu.be/TETPuLBlouc?si=-9-TKG7gNuu2yfOl), [Lunar Scout](https://github.com/shailes-h/Lunar_Scout)

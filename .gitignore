@@ -24,3 +24,6 @@ package-lock.json
 # Local dev server overrides
 _config.local.yml
 .jekyll-cache/
+
+# Raw, unoptimized source assets kept locally only (optimized copies live in images/)
+/assets/arts/
