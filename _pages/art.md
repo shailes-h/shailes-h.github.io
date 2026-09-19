@@ -28,7 +28,7 @@ author_profile: false
   <a href="#art-7" class="art-gallery__item">
     <img src="{{ '/images/art/sketch-naruto.jpg' | relative_url }}" alt="Line art sketch of a young Naruto character" loading="lazy">
   </a>
-  <a href="#art-8" class="art-gallery__item">
+  <a href="#art-8" class="art-gallery__item art-gallery__item--feature">
     <img src="{{ '/images/art/sketch-night-sky.jpg' | relative_url }}" alt="Illustration of a figure reaching up at a starry night sky" loading="lazy">
   </a>
 </div>
