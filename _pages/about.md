@@ -13,7 +13,7 @@ redirect_from:
 
 I'm a Research Assistant at the [MAGIC Lab](https://magic-ailab.github.io/), National University of Singapore (NUS), working with [Prof Jiafei Duan](https://jiafei1224.github.io/). I received my Bachelor of Technology in Electrical Engineering (Minor in Embedded Systems) from [IIT Dhanbad](https://www.iitism.ac.in/).
 
-Previously, I was a Research Assistant at the [MARMoT Lab](https://www.marmotlab.org/index.html), NUS, working with [Prof Guillaume Sartoretti](https://www.marmotlab.org/bio.html). I've also spent time at [CIR, IIIT Allahabad](https://cir.iiita.ac.in/) with [Prof G.C. Nandi](https://scholar.google.com.sg/citations?hl=en&user=cVdB1iwAAAAJ).
+Previously, I was a Research Intern → Research Assistant at the [MARMoT Lab](https://www.marmotlab.org/index.html), NUS, working with [Prof Guillaume Sartoretti](https://www.marmotlab.org/bio.html). I've also spent time at [CIR, IIIT Allahabad](https://cir.iiita.ac.in/) with [Prof G.C. Nandi](https://scholar.google.com.sg/citations?hl=en&user=cVdB1iwAAAAJ).
 
 My research aims to develop foundation models that enable general-purpose robot learning. This spans three interconnected threads, vision-language-action models, world models, and test-time scaling; unified by a common goal: robots that generalize robustly to real-world manipulation tasks.
 
@@ -61,7 +61,7 @@ My research aims to develop foundation models that enable general-purpose robot 
     </div>
     <div class="industry-entry__body">
       <h3 class="industry-entry__title"><a href="https://www.marmotlab.org/index.html">MARMoT Lab, National University of Singapore (NUS)</a></h3>
-      <p class="industry-entry__line"><em>Research Assistant, under Prof <a href="https://www.marmotlab.org/bio.html">Guillaume Sartoretti</a><span class="industry-entry__date">Jun 2025 - Jul 2026</span></em></p>
+      <p class="industry-entry__line"><em>Research Intern &rarr; Research Assistant, under Prof <a href="https://www.marmotlab.org/bio.html">Guillaume Sartoretti</a><span class="industry-entry__date">Jun 2025 - Jul 2026</span></em></p>
     </div>
   </article>
 
