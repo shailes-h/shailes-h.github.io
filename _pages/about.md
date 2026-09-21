@@ -148,6 +148,7 @@ My research aims to develop foundation models that enable general-purpose robot 
 
 ## 🏅 Honors and Awards {#awards}
 - **Best Paper Finalist**: [RemembeRL @ CoRL 2025](https://rememberl-corl25.github.io/#accepted-papers) (with [GRIM](https://grim-tog.github.io/))
+- **Scholarship**: TEEP@AsiaPlus 2024
 - **1st Position** ($12,000): Robofest Gujarat 3.0 2023 (India's Biggest Robotics Competition)
 - **1st Position**: Vichesta (ROS simulation competition), Takshak 2022 (East India's Largest Robotics Fest)
 - **3rd Position**: Robowars (BattleBots) at Concetto 2022 (Annual Tech Fest of IIT Dhanbad)
