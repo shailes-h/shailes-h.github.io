@@ -22,11 +22,11 @@ My research aims to develop foundation models that enable general-purpose robot 
   <li><strong>[2026/09]</strong> Our work <em>LIT</em> is out, check it out <a href="https://x.com/Shailes_h_/status/2099105070403248387?s=20">here</a>.</li>
   <li><strong>[2026/07]</strong> Joined the <a href="https://magic-ailab.github.io/">MAGIC Lab</a>, National University of Singapore (NUS) as a Research Assistant, working with <a href="https://jiafei1224.github.io/">Prof Jiafei Duan</a>.</li>
   <li><strong>[2026/07]</strong> Our work <em>RL^2-VLA</em> is out, check it out <a href="https://x.com/Shailes_h_/status/2085339379388781030?s=20">here</a>.</li>
-  <li><strong>[2025/11]</strong> Our paper <em>GRIM</em> has been accepted to AAAI 2026 (Oral).</li>
+  <li><strong>[2025/11]</strong> Our work <em>GRIM</em> has been accepted to AAAI 2026 (Oral). See you guys in Singapore 🇸🇬</li>
   <li><strong>[2025/09]</strong> <em>GRIM</em> was selected as <span style="color:red;">Best Paper Finalist</span> at RemembeRL @ CoRL 2025.</li>
   <li><strong>[2025/06]</strong> Our work <em>GRIM</em> is out, check it out <a href="https://grim-tog.github.io/">here</a>.</li>
   <li><strong>[2025/06]</strong> Joined the <a href="https://www.marmotlab.org/index.html">MARMoT Lab</a>, National University of Singapore (NUS), working with <a href="https://www.marmotlab.org/bio.html">Prof Guillaume Sartoretti</a>.</li>
-  <li><strong>[2025/05]</strong> Our paper <em>Search-TTA</em> was accepted to CoRL 2025, check it out <a href="https://search-tta.github.io/">here</a>.</li>
+  <li><strong>[2025/05]</strong> Our work <em>Search-TTA</em> was accepted to CoRL 2025, check it out <a href="https://search-tta.github.io/">here</a>. See you guys in Seoul :) 🇰🇷</li>
 </ul>
 <div class="home-news__controls">
   <button class="home-news__toggle" type="button" data-list-toggle aria-controls="news-list" aria-expanded="false" aria-label="Expand news">
