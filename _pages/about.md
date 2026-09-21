@@ -73,7 +73,7 @@ My research aims to develop foundation models that enable general-purpose robot 
     </div>
     <div class="industry-entry__body">
       <h3 class="industry-entry__title"><a href="https://cir.iiita.ac.in/">CIR, IIIT Allahabad</a> <a href="https://youtu.be/Alzd1yk6IzI?si=naQlAvhyrM2HFYAb&t=169">[video]</a></h3>
-      <p class="industry-entry__line"><em>Research Intern, under Prof <a href="https://scholar.google.com.sg/citations?hl=en&user=cVdB1iwAAAAJ">G.C. Nandi</a> &amp; <a href="https://scholar.google.com/citations?user=6tiiQtgAAAAJ&hl=en">Andrew Melnik</a><span class="industry-entry__date">Dec 2024 - May 2025</span></em></p>
+      <p class="industry-entry__line"><em>Research Intern, under Prof <a href="https://scholar.google.com.sg/citations?hl=en&user=cVdB1iwAAAAJ">G.C. Nandi</a> &amp; <a href="https://scholar.google.com/citations?user=6tiiQtgAAAAJ&hl=en">Andrew Melnik</a><span class="industry-entry__date">Aug 2024 - May 2025</span></em></p>
     </div>
   </article>
 
