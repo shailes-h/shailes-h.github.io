@@ -31,6 +31,9 @@ author_profile: false
   <a href="#art-7" class="art-gallery__item">
     <img src="{{ '/images/art/sketch-naruto.jpg' | relative_url }}" alt="Line art sketch of a young Naruto character" loading="lazy">
   </a>
+  <a href="#art-9" class="art-gallery__item">
+    <img src="{{ '/images/art/sketch-windswept-portrait.jpg' | relative_url }}" alt="Pen sketch of a character with windswept hair" loading="lazy">
+  </a>
 </div>
 
 <a href="#_" id="art-1" class="art-lightbox"><span class="art-lightbox__frame"><img src="{{ '/images/art/sketch-scarf-portrait.jpg' | relative_url }}" alt="Pencil sketch of a boy in a scarf"></span></a>
@@ -41,4 +44,5 @@ author_profile: false
 <a href="#_" id="art-6" class="art-lightbox"><span class="art-lightbox__frame"><img src="{{ '/images/art/sketch-reaching.jpg' | relative_url }}" alt="Pencil sketch of a character reaching forward"></span></a>
 <a href="#_" id="art-7" class="art-lightbox"><span class="art-lightbox__frame"><img src="{{ '/images/art/sketch-naruto.jpg' | relative_url }}" alt="Line art sketch of a young Naruto character"></span></a>
 <a href="#_" id="art-8" class="art-lightbox"><span class="art-lightbox__frame"><img src="{{ '/images/art/sketch-night-sky.jpg' | relative_url }}" alt="Illustration of a figure reaching up at a starry night sky"></span></a>
+<a href="#_" id="art-9" class="art-lightbox"><span class="art-lightbox__frame"><img src="{{ '/images/art/sketch-windswept-portrait.jpg' | relative_url }}" alt="Pen sketch of a character with windswept hair"></span></a>
 <div id="_"></div>
