@@ -52,21 +52,6 @@
   &:nth-child(3n) { --tilt: -1.2deg; }
 }
 
-.art-gallery__pair {
-  display: flex;
-  column-span: all;
-  justify-content: center;
-  align-items: flex-start;
-  flex-wrap: wrap;
-  gap: 10px;
-  margin-bottom: 10px;
-
-  .art-gallery__item {
-    flex: 0 1 260px;
-    margin-bottom: 0;
-  }
-}
-
 .art-gallery__item--feature {
   max-width: 480px;
   margin-left: auto;
