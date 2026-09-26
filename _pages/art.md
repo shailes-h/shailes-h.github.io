@@ -16,14 +16,14 @@ author_profile: false
   <a href="#art-3" class="art-gallery__item">
     <img src="{{ '/images/art/sketch-baby-portrait.jpg' | relative_url }}" alt="Colored pencil sketch of a baby's portrait" loading="lazy">
   </a>
-  <a href="#art-4" class="art-gallery__item">
-    <img src="{{ '/images/art/sketch-ironman.jpg' | relative_url }}" alt="Pencil sketch of a person holding an Iron Man mask" loading="lazy">
+  <a href="#art-8" class="art-gallery__item art-gallery__item--feature">
+    <img src="{{ '/images/art/sketch-night-sky.jpg' | relative_url }}" alt="Illustration of a figure reaching up at a starry night sky" loading="lazy">
   </a>
   <a href="#art-9" class="art-gallery__item">
     <img src="{{ '/images/art/sketch-windswept-portrait.jpg' | relative_url }}" alt="Pen sketch of a character with windswept hair" loading="lazy">
   </a>
-  <a href="#art-8" class="art-gallery__item art-gallery__item--feature">
-    <img src="{{ '/images/art/sketch-night-sky.jpg' | relative_url }}" alt="Illustration of a figure reaching up at a starry night sky" loading="lazy">
+  <a href="#art-4" class="art-gallery__item">
+    <img src="{{ '/images/art/sketch-ironman.jpg' | relative_url }}" alt="Pencil sketch of a person holding an Iron Man mask" loading="lazy">
   </a>
   <a href="#art-5" class="art-gallery__item">
     <img src="{{ '/images/art/sketch-profile.jpg' | relative_url }}" alt="Pencil sketch of a character in profile" loading="lazy">
