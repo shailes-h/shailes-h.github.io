@@ -121,6 +121,8 @@ My research aims to develop foundation models that enable general-purpose robot 
     <p class="resume-entry__heading"><strong>Reviewer</strong></p>
     <ul class="resume-entry__details">
       <li><a href="https://www.ieee-ras.org/publications/ra-l/">IEEE Robotics and Automation Letters (RA-L)</a></li>
+      <li><a href="https://www.ieee-ras.org/publications/icra/">IEEE ICRA 2027</a></li>
+      <li>Compositional &amp; SimBench2Real Workshops @ CoRL 2026</li>
       <li><a href="https://embodied-nesy.github.io/">ReS AI Workshop @ IROS 2026</a></li>
       <li><a href="https://semrob.github.io/">SemRob Workshop @ RSS 2025</a></li>
     </ul>
