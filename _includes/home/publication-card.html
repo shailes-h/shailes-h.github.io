@@ -63,7 +63,7 @@
 
     {% if publication.links %}
       <div class="publication-card__links">
-        {% assign prioritized_link_kinds = "paper,code,website" | split: "," %}
+        {% assign prioritized_link_kinds = "website,paper,code" | split: "," %}
         {% for prioritized_kind in prioritized_link_kinds %}
           {% for link in publication.links %}
             {% if link.kind == prioritized_kind %}
@@ -103,8 +103,8 @@
                   </span>
                 {% elsif link.kind == "code" and link_stars > 0 %}
                   <span class="publication-chip__metric publication-chip__metric--stars" aria-label="{{ link_stars }} GitHub stars">
-                    <span>{{ link_stars }}</span>
                     <i class="fa-solid fa-star publication-chip__metric-icon publication-chip__metric-icon--stars" aria-hidden="true"></i>
+                    <span>{{ link_stars }}</span>
                   </span>
                 {% endif %}
               </a>
@@ -149,8 +149,8 @@
                 </span>
               {% elsif link.kind == "code" and link_stars > 0 %}
                 <span class="publication-chip__metric publication-chip__metric--stars" aria-label="{{ link_stars }} GitHub stars">
-                  <span>{{ link_stars }}</span>
                   <i class="fa-solid fa-star publication-chip__metric-icon publication-chip__metric-icon--stars" aria-hidden="true"></i>
+                  <span>{{ link_stars }}</span>
                 </span>
               {% endif %}
             </a>
