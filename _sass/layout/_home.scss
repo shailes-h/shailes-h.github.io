@@ -575,8 +575,12 @@
   font-size: 0.82em;
 }
 
+.publication-card .publication-chip .publication-chip__metric--stars,
 .publication-chip .publication-chip__metric-icon--stars {
-  color: var(--global-accent-color);
+  color: var(--global-text-color-light);
+}
+
+.publication-chip .publication-chip__metric-icon--stars {
   font-size: 0.78em;
   --publication-chip-icon-glyph-offset-y: -0.02em;
 }
@@ -701,8 +705,7 @@ html[data-theme="dark"] {
   }
 
   .publication-chip__metric,
-  .publication-chip__metric-icon--citations,
-  .publication-chip__metric-icon--stars {
+  .publication-chip__metric-icon--citations {
     color: var(--global-accent-color-soft);
   }
 
