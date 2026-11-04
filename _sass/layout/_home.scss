@@ -483,9 +483,9 @@
 .publication-card__venue-note--award,
 .publication-card__venue-note--spotlight {
   border-width: 1.5px;
-  border-color: rgba(198, 40, 40, 0.24);
-  background: rgba(253, 241, 241, 0.98);
-  color: var(--global-accent-color-strong);
+  border-color: rgba(156, 54, 120, 0.24);
+  background: rgba(250, 240, 248, 0.98);
+  color: #8e2a68;
 }
 
 .publication-card__links {
@@ -699,8 +699,8 @@ html[data-theme="dark"] {
   .publication-card__venue-note--award,
   .publication-card__venue-note--spotlight {
     border-width: 1.5px;
-    border-color: rgba(239, 83, 80, 0.32);
-    background: rgba(239, 83, 80, 0.14);
+    border-color: rgba(206, 98, 168, 0.32);
+    background: rgba(206, 98, 168, 0.14);
     color: var(--global-text-color);
   }
 
