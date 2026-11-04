@@ -1,0 +1,47 @@
+title: 'RoboColosseum: Evaluating Physical Intelligence at Scale In-The-Wild'
+date: 2026-11-02
+selected: true
+authors:
+  - name: Tan Sang Nguyen
+    marks: '*'
+  - name: Yi Ru Wang
+    marks: '*'
+  - name: Shailesh
+    marks: '*'
+    highlight: true
+  - name: Gang Yang
+  - name: Jiamo Hu
+  - name: Jianuo Jiang
+  - name: Haoquan Fang
+  - name: Zhongzheng Ren
+  - name: Zhongyi Luo
+  - name: Ian Chong
+  - name: Aaron Tung
+  - name: Santiago Pravisani
+  - name: Minghui Lin
+  - name: Yao Mo
+  - name: Ishneet Singh
+  - name: Benjamin Tee
+  - name: Harold Soh
+  - name: Siddhartha Srinivasa
+  - name: Dieter Fox
+  - name: David Hsu
+  - name: Haoming Song
+  - name: Maxime Ellerbach
+  - name: Thomas Wolf
+  - name: Pepijn Kooijmans
+  - name: Ruijie He
+  - name: Michael Cho
+  - name: Jiafei Duan
+venue:
+  - text: 'Under review'
+links:
+  - label: Website
+    kind: website
+    url: 'https://robocolosseum.ai'
+  - label: Code
+    kind: code
+    url: 'https://github.com/RoboColosseum'
+  - label: Paper
+    kind: paper
+    url: 'https://arxiv.org/abs/2611.02497'
