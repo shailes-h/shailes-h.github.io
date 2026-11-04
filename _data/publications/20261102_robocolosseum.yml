@@ -40,7 +40,7 @@ media:
   src: /images/publications/20261102_robocolosseum.mp4
   alt: RoboColosseum demo video
 links:
-  - label: Website
+  - label: Project Page
     kind: website
     url: 'https://robocolosseum.ai'
   - label: GitHub

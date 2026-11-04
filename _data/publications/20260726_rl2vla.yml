@@ -20,7 +20,7 @@ media:
   alt: RL^2-VLA demo video
   fit: contain
 links:
-  - label: Website
+  - label: Project Page
     kind: website
     url: 'https://rl2-vla.github.io/'
   - label: Paper

@@ -16,7 +16,7 @@ media:
   src: /images/publications/20260923_gam.mp4
   alt: Grounded Action Model demo video
 links:
-  - label: Website
+  - label: Project Page
     kind: website
     url: 'https://grounded-action-model.github.io/'
   - label: Paper

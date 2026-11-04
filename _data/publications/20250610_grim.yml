@@ -22,7 +22,7 @@ media:
   src: /images/publications/20250610_grim.mp4
   alt: GRIM teaser video
 links:
-  - label: Website
+  - label: Project Page
     kind: website
     url: 'https://grim-tog.github.io/'
   - label: Paper
@@ -32,6 +32,3 @@ links:
     kind: code
     url: 'https://github.com/GRIM-TOG/GRIM'
     stars: 13
-  - label: AAAI
-    kind: report
-    url: 'https://ojs.aaai.org/index.php/AAAI/article/view/38873'

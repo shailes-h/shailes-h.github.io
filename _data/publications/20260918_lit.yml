@@ -16,7 +16,7 @@ media:
   src: /images/publications/20260918_lit.mp4
   alt: LIT teaser video
 links:
-  - label: Website
+  - label: Project Page
     kind: website
     url: 'https://magiclab-nus.github.io/LIT'
   - label: Paper
