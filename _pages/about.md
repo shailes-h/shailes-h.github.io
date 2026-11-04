@@ -11,7 +11,7 @@ redirect_from:
 
 <p class="page-tagline">(Legally, it's just Shailesh. Some systems insist otherwise, hence "Shailesh Shailesh.")</p>
 
-I'm a Research Assistant at the [MAGIC Lab](https://magic-ailab.github.io/), National University of Singapore (NUS), working with [Prof Jiafei Duan](https://jiafei1224.github.io/). I received my Bachelor of Technology in Electrical Engineering (Minor in Embedded Systems) from [IIT Dhanbad](https://www.iitism.ac.in/).
+I'm a Research Assistant at the [MAGIC Lab](https://magiclab-nus.github.io/), National University of Singapore (NUS), working with [Prof Jiafei Duan](https://jiafei1224.github.io/). I received my Bachelor of Technology in Electrical Engineering (Minor in Embedded Systems) from [IIT Dhanbad](https://www.iitism.ac.in/).
 
 Previously, I was a Research Intern → Research Assistant at the [MARMoT Lab](https://www.marmotlab.org/index.html), NUS, working with [Prof Guillaume Sartoretti](https://www.marmotlab.org/bio.html). I've also spent time at [CIR, IIIT Allahabad](https://cir.iiita.ac.in/) with [Prof G.C. Nandi](https://scholar.google.com.sg/citations?hl=en&user=cVdB1iwAAAAJ).
 
@@ -22,7 +22,7 @@ My research aims to develop foundation models that enable general-purpose robot 
   <li><strong>[2026/11]</strong> Stepping up real-world evals: we released <em>RoboColosseum</em>, check it out <a href="https://arxiv.org/pdf/2611.02497">here</a>.</li>
   <li><strong>[2026/09]</strong> Our work <em>GAM</em> is out, check it out <a href="https://x.com/Shailes_h_/status/2102587348127219975">here</a>.</li>
   <li><strong>[2026/09]</strong> Our work <em>LIT</em> is out, check it out <a href="https://x.com/Shailes_h_/status/2099105070403248387?s=20">here</a>.</li>
-  <li><strong>[2026/07]</strong> Joined the <a href="https://magic-ailab.github.io/">MAGIC Lab</a>, NUS as a Research Assistant, working with <a href="https://jiafei1224.github.io/">Prof Jiafei Duan</a>.</li>
+  <li><strong>[2026/07]</strong> Joined the <a href="https://magiclab-nus.github.io/">MAGIC Lab</a>, NUS as a Research Assistant, working with <a href="https://jiafei1224.github.io/">Prof Jiafei Duan</a>.</li>
   <li><strong>[2026/07]</strong> Our work <em>RL^2-VLA</em> is out, check it out <a href="https://x.com/Shailes_h_/status/2085339379388781030?s=20">here</a>.</li>
   <li><strong>[2025/11]</strong> Our work <em>GRIM</em> has been accepted to AAAI 2026 (Oral). See you guys in Singapore 🇸🇬</li>
   <li><strong>[2025/09]</strong> <em>GRIM</em> was selected as <span style="color:red;">Best Paper Finalist</span> at RemembeRL @ CoRL 2025.</li>
@@ -50,7 +50,7 @@ My research aims to develop foundation models that enable general-purpose robot 
       </div>
     </div>
     <div class="industry-entry__body">
-      <h3 class="industry-entry__title"><a href="https://magic-ailab.github.io/">MAGIC Lab, National University of Singapore (NUS)</a></h3>
+      <h3 class="industry-entry__title"><a href="https://magiclab-nus.github.io/">MAGIC Lab, National University of Singapore (NUS)</a></h3>
       <p class="industry-entry__line"><em>Research Assistant, under Prof <a href="https://jiafei1224.github.io/">Jiafei Duan</a><span class="industry-entry__date">Jul 2026 - Present</span></em></p>
     </div>
   </article>
