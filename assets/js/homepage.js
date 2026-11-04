@@ -160,8 +160,49 @@ document.addEventListener("DOMContentLoaded", () => {
     window.setTimeout(requestUpdate, 160);
   };
 
+  const initializeGitHubStars = () => {
+    const starCounts = Array.from(document.querySelectorAll(".publication-chip__metric--stars > span"));
+    const repos = new Map();
+
+    starCounts.forEach((count) => {
+      const match = count.closest("a")?.href.match(/github\.com\/([^/]+\/[^/?#]+)/);
+      if (match) {
+        repos.set(match[1], [...(repos.get(match[1]) || []), count]);
+      }
+    });
+
+    repos.forEach((counts, repo) => {
+      const render = (stars) => counts.forEach((count) => {
+        count.textContent = stars;
+        count.parentElement.setAttribute("aria-label", `${stars} GitHub stars`);
+      });
+      const cacheKey = `github-stars:${repo}`;
+
+      try {
+        const cached = JSON.parse(localStorage.getItem(cacheKey));
+        if (cached && Date.now() - cached.time < 6 * 60 * 60 * 1000) {
+          render(cached.stars);
+          return;
+        }
+      } catch (error) {}
+
+      fetch(`https://api.github.com/repos/${repo}`)
+        .then((response) => (response.ok ? response.json() : null))
+        .then((data) => {
+          if (data && typeof data.stargazers_count === "number") {
+            render(data.stargazers_count);
+            try {
+              localStorage.setItem(cacheKey, JSON.stringify({ stars: data.stargazers_count, time: Date.now() }));
+            } catch (error) {}
+          }
+        })
+        .catch(() => {});
+    });
+  };
+
   initializeVisitorMap();
   initializeSectionNavigation();
+  initializeGitHubStars();
 
   const publicationButtons = Array.from(document.querySelectorAll("[data-publication-switch]"));
   const publicationViews = Array.from(document.querySelectorAll("[data-publication-view]"));

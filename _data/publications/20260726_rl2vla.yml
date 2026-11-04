@@ -26,3 +26,7 @@ links:
   - label: Paper
     kind: paper
     url: 'https://arxiv.org/abs/2607.26991'
+  - label: GitHub
+    kind: code
+    url: 'https://github.com/marmotlab/RL2-VLA'
+    stars: 41

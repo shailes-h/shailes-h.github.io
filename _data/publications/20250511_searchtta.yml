@@ -28,6 +28,10 @@ links:
   - label: Paper
     kind: paper
     url: 'https://arxiv.org/pdf/2505.11350'
+  - label: GitHub
+    kind: code
+    url: 'https://github.com/marmotlab/Search-TTA-RL-VLN'
+    stars: 31
   - label: Published
     kind: report
     url: 'https://proceedings.mlr.press/v305/tan25a.html'

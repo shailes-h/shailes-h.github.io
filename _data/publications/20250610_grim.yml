@@ -26,6 +26,10 @@ links:
   - label: Paper
     kind: paper
     url: 'https://arxiv.org/pdf/2506.15607'
+  - label: GitHub
+    kind: code
+    url: 'https://github.com/GRIM-TOG/GRIM'
+    stars: 13
   - label: AAAI
     kind: report
     url: 'https://ojs.aaai.org/index.php/AAAI/article/view/38873'

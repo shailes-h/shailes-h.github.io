@@ -2,7 +2,7 @@ title: 'RoboColosseum: Evaluating Physical Intelligence at Scale In-The-Wild'
 date: 2026-11-02
 selected: true
 authors:
-  - name: Tan Sang Nguyen
+  - name: Tan Sang
     marks: '*'
   - name: Yi Ru Wang
     marks: '*'
@@ -39,9 +39,10 @@ links:
   - label: Website
     kind: website
     url: 'https://robocolosseum.ai'
-  - label: Code
+  - label: GitHub
     kind: code
-    url: 'https://github.com/RoboColosseum'
+    url: 'https://github.com/RoboColosseum/RoboColosseum'
+    stars: 3
   - label: Paper
     kind: paper
     url: 'https://arxiv.org/abs/2611.02497'

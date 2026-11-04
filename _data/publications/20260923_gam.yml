@@ -22,3 +22,7 @@ links:
   - label: Paper
     kind: paper
     url: 'https://arxiv.org/abs/2609.23863'
+  - label: GitHub
+    kind: code
+    url: 'https://github.com/GehaoZhang6/Grounded-Action-Model'
+    stars: 55
