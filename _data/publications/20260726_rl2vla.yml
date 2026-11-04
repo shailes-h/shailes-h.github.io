@@ -25,7 +25,7 @@ links:
     url: 'https://rl2-vla.github.io/'
   - label: Paper
     kind: paper
-    url: 'https://arxiv.org/abs/2607.26991'
+    url: 'https://arxiv.org/pdf/2607.26991'
   - label: GitHub
     kind: code
     url: 'https://github.com/marmotlab/RL2-VLA'
