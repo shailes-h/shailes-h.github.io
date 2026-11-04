@@ -22,7 +22,7 @@ My research aims to develop foundation models that enable general-purpose robot 
   <li><strong>[2026/11]</strong> Stepping up real-world evals: we released <em>RoboColosseum</em>, check it out <a href="https://arxiv.org/pdf/2611.02497">here</a>.</li>
   <li><strong>[2026/09]</strong> Our work <em>GAM</em> is out, check it out <a href="https://x.com/Shailes_h_/status/2102587348127219975">here</a>.</li>
   <li><strong>[2026/09]</strong> Our work <em>LIT</em> is out, check it out <a href="https://x.com/Shailes_h_/status/2099105070403248387?s=20">here</a>.</li>
-  <li><strong>[2026/07]</strong> Joined the <a href="https://magic-ailab.github.io/">MAGIC Lab</a>, National University of Singapore (NUS) as a Research Assistant, working with <a href="https://jiafei1224.github.io/">Prof Jiafei Duan</a>.</li>
+  <li><strong>[2026/07]</strong> Joined the <a href="https://magic-ailab.github.io/">MAGIC Lab</a>, NUS as a Research Assistant, working with <a href="https://jiafei1224.github.io/">Prof Jiafei Duan</a>.</li>
   <li><strong>[2026/07]</strong> Our work <em>RL^2-VLA</em> is out, check it out <a href="https://x.com/Shailes_h_/status/2085339379388781030?s=20">here</a>.</li>
   <li><strong>[2025/11]</strong> Our work <em>GRIM</em> has been accepted to AAAI 2026 (Oral). See you guys in Singapore 🇸🇬</li>
   <li><strong>[2025/09]</strong> <em>GRIM</em> was selected as <span style="color:red;">Best Paper Finalist</span> at RemembeRL @ CoRL 2025.</li>
