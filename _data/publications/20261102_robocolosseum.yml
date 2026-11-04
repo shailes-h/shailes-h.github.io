@@ -35,6 +35,10 @@ authors:
   - name: Jiafei Duan
 venue:
   - text: 'Under review'
+media:
+  type: video
+  src: /images/publications/20261102_robocolosseum.mp4
+  alt: RoboColosseum demo video
 links:
   - label: Website
     kind: website
